@@ -1,0 +1,32 @@
+.Notifications {
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px dashed red;
+}
+
+[data-priority="default"] {
+    color: blue;
+}
+
+[data-priority="urgent"] {
+    color: red;
+}
+
+li{
+    color: red;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button > img {
+    width: 30px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin-top: 0.5rem;
+    /* border: 1px solid; */
+}
