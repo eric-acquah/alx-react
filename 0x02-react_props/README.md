@@ -1,0 +1,1 @@
+A step forward into react, we now practice the use of props and custom React components.
