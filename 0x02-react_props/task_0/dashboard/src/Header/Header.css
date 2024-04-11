@@ -1,0 +1,23 @@
+/* ====== header ======= */
+
+.App-header {
+    background-color: white;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    font-size: calc(10px + 2vmin);
+    color: rgb(244, 59, 106);;
+    border-bottom: 5px solid rgb(244, 59, 106);
+  }
+
+  .App-header h1 {
+    margin-left: 1rem;
+  }
+
+  .App img {
+    object-fit: contain;
+    position: relative;
+    height: 100%;
+  }
