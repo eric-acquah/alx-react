@@ -1,0 +1,7 @@
+/* ====== Body ======= */
+
+.App-body {
+  display: block;
+  padding: 2rem 2rem;
+  min-height: 70vh;
+}
