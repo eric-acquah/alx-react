@@ -1,0 +1,13 @@
+
+/* #CourseList {
+
+} */
+
+table {
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+th {
+    border-bottom: 2px solid lightgray;
+}
