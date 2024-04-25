@@ -42,5 +42,5 @@ export function Notifications({ displayDrawer = true, listNotifications = [] }) 
 // Notifications.propTypes = typeCheck;
 Notifications.propTypes = {
   ...typeCheck,
-  listNotifications: PropTypes.arrayOf(PropTypes.shape(NotificationItemShape))
+  // listNotifications: PropTypes.arrayOf(PropTypes.shape(NotificationItemShape))
 }
