@@ -11,7 +11,7 @@ const typeCheck = {
 
 export function Notifications({ displayDrawer = true, listNotifications = [] }) {
   let displayToggle;
-  
+
   if (displayDrawer) {
       displayToggle = <div className="Notifications">
       {listNotifications.length > 0 && <p>Here is the list of notifications</p>}
@@ -42,5 +42,5 @@ export function Notifications({ displayDrawer = true, listNotifications = [] }) 
 // Notifications.propTypes = typeCheck;
 Notifications.propTypes = {
   ...typeCheck,
-  // listNotifications: PropTypes.arrayOf(PropTypes.shape(NotificationItemShape))
+   listNotifications: PropTypes.arrayOf(PropTypes.shape(NotificationItemShape))
 }
