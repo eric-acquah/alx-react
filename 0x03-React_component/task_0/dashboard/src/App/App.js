@@ -24,31 +24,6 @@ const listNotifications = [
   {id:3, type: 'default', html: { __html: getLatestNotification() }}
 ]
 
-// function App({ isLoggedIn = true }) {
-
-//   let bodyContent;
-
-//   if (isLoggedIn){
-//     bodyContent =  <div className="app-body" ><CourseList listCourses={listCourses} /></div>;
-//   } else {
-//     bodyContent = <div className="app-body" ><Login /></div>;
-//   }
-
-//   return (
-//     <>
-//       <Notifications listNotifications={listNotifications} />
-//       <div className="App">
-//         <Header />
-//         {bodyContent}
-//         <Footer />
-//       </div>
-//     </>
-//   );
-// }
-
-// App.propTypes = typeCheck;
-
-// export default App;
 
 class App extends React.Component {
   constructor(props){
