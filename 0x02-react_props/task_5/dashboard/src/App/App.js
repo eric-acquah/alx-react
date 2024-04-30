@@ -24,7 +24,7 @@ const listNotifications = [
   {id:3, type: 'default', html: { __html: getLatestNotification() }}
 ]
 
-function App({ isLoggedIn = true }) {
+function App({ isLoggedIn = false }) {
 
   let bodyContent;
 

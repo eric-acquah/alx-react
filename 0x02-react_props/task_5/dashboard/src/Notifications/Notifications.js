@@ -8,8 +8,8 @@ import PropTypes from "prop-types";
 const typeCheck = {
   displayDrawer: PropTypes.bool,
 };
-
-export function Notifications({ displayDrawer = true, listNotifications = [] }) {
+ 
+export function Notifications({ displayDrawer = true, listNotifications = []}) {
   let displayToggle;
 
   if (displayDrawer) {
@@ -42,5 +42,5 @@ export function Notifications({ displayDrawer = true, listNotifications = [] }) 
 // Notifications.propTypes = typeCheck;
 Notifications.propTypes = {
   ...typeCheck,
-   listNotifications: PropTypes.arrayOf(PropTypes.shape(NotificationItemShape))
+   listNotifications: PropTypes.arrayOf(NotificationItemShape)
 }
